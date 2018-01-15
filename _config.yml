@@ -7,7 +7,7 @@ author: Chris R. Donnelly
 email: blog@chrisdonnelly.com
 lang: en-US
 
-theme: jekyll-theme-clean-blog
+theme: jekyll-theme-minima
 
 permalink: /:categories/:year/:month/:day/:title/
 
