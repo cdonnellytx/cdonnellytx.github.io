@@ -1,5 +1,2 @@
-# Test
-
-
 {% capture about_include %}{% include about.md %}{% endcapture %}
 {{ about_include | markdownify }}
