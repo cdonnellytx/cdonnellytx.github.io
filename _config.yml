@@ -5,7 +5,7 @@ url: "http://www.chrisdonnelly.com"
 name: "Chris R. Donnelly"
 
 # ok, try NO theme
-#theme: jekyll-theme-cayman
+theme: jekyll-theme-cayman
 
 permalink: /:categories/:year/:month/:day/:title/
 contenturl: "/blog/content/"
