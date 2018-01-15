@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 section: home
 ---
 {% capture about_include %}{% include about.md %}{% endcapture %}

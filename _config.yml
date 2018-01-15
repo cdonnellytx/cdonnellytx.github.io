@@ -1,22 +1,26 @@
 # Site settings
 title: Finally, a blog!
 description: > #
-url: "http://www.chrisdonnelly.com"
-name: "Chris R. Donnelly"
+url: http://www.chrisdonnelly.com
+baseurl: ""
+author: Chris R. Donnelly
+email: blog@chrisdonnelly.com
+lang: en-US
 
-# ok, try NO theme
-theme: jekyll-theme-cayman
+theme: jekyll-theme-clean-blog
 
 permalink: /:categories/:year/:month/:day/:title/
-contenturl: "/blog/content/"
 
 # Social
 twitter_username: cdonnellytx
 github_username: cdonnellytx
+facebook_username: cdonnellytx
 stackoverflow_link: users/17152/chris-r-donnelly
 googleplus_id: 112563910740791984026
 
+# Build settings
 exclude:
+  - .editorconfig
   - Gemfile
   - Gemfile.lock
   - LICENSE

@@ -1,0 +1,28 @@
+# EditorConfig is awesome: http://editorconfig.org/
+# @see https://github.com/editorconfig/editorconfig-visualstudio#readme for more information
+
+#
+# top-most EditorConfig file
+root = true
+
+[*]
+# Default to UTF-8, no BOM
+charset = utf-8
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+
+# Generic HTML
+[*.{html}]
+indent_size = 2
+trim_trailing_whitespace = true
+
+# Generic XML
+[*.{xml,xslt,xsd}]
+indent_size = 2
+trim_trailing_whitespace = true
+
+# YAML
+[*.yml]
+indent_size = 2
+trim_trailing_whitespace = true
