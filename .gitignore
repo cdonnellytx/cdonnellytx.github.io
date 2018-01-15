@@ -1,3 +1,12 @@
+# GitHub Desktop
 _site/
 .sass-cache/
 .jekyll-metadata
+
+# Roslyn cache directories
+*.ide/
+# Visual Studio 2015-present cache/options directory
+.vs/
+# Visual Studio Code
+.vscode/
+
