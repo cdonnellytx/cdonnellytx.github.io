@@ -1,19 +1,24 @@
 ---
-layout: default
+layout: page
 section: blog
-footer_nav: true
+background: /assets/img/bg/posts.jpg
 ---
-        <div class="home">
-          <div class="post-list">            
-            <div class="top-right-links">
-              <span><a href="archive/">Archive</a> ({{ site.posts | size }} posts)</span>
-            </div>{% for post in site.categories.blog limit: 5 %}
-            <section>
-              <h1><a class="post-link" href="{% if post.stuburl %}{{ post.stuburl }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a></h1>
-              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-              <article class="post-content{% if forloop.index0 != 0 %} excerpt{% endif %}">{% if forloop.index0 == 0 %}{{ post.content }}{% else %}{{ post.excerpt }}<a class="excerpt-link" href="{% if post.stuburl %}{{ post.stuburl }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">Continue reading...</a>{% endif %}
-              </article>
-            </section>{% endfor %}
-            <span class="archive-link"><a href="archive/">View Archive</a> ({{ site.posts | size }} posts)</span>
-          </div>
-        </div>
+<div class="home">
+  <div class="post-list">
+{% for post in site.categories.blog limit: 5 %}
+    <section>
+      <h1><a class="post-link" href="{% if post.stuburl %}{{ post.stuburl }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a></h1>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <article class="post-content{% if forloop.index0 != 0 %} excerpt{% endif %}">{% if forloop.index0 == 0 %}{{ post.content }}{% else %}{{ post.excerpt }}<a class="excerpt-link" href="{% if post.stuburl %}{{ post.stuburl }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">Continue reading...</a>{% endif %}
+      </article>
+    </section>
+{% endfor %}
+    <!--
+       - cdonnelly 2018-01-16: Now I know what you're thinking: "How could he have left this so it would say '1 posts'"?
+       - The answer is simple: I don't plan on having one post for very long, and most blogs don't,
+       - so neither I nor the source I got this from (https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/)
+       - bothered to do it.
+      -->
+    <span class="archive-link"><a href="archive/">View Archive</a> ({{ site.posts | size }} posts)</span>
+    </div>
+</div>
