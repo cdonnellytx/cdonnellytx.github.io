@@ -9,8 +9,9 @@ lang: en-US
 repository: cdonnellytx/cdonnellytx.github.io
 
 # UX
-#theme: jekyll-theme-cayman
-theme: jekyll-theme-clean-blog
+# 2018-01-16: This is the theme I'm using, but GitHub Pages won't honor it.
+# So I copied in all its resources locally...
+#theme: jekyll-theme-clean-blog
 image: "/assets/img/bg/home.jpg"
 postImage: "/assets/img/bg/about.jpg"
 
