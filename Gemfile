@@ -7,6 +7,7 @@ else
 end
 
 gem "jekyll-theme-clean-blog"
+gem "minimal-mistakes-jekyll"
 
 # Neeed to run on Windows
 if Gem.win_platform?

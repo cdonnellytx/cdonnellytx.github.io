@@ -1,6 +1,4 @@
 ---
-layout: default
-section: home
+layout: home
+background: 'assets/img/bg/home.jpg'
 ---
-{% capture about_include %}{% include about.md %}{% endcapture %}
-{{ about_include | markdownify }}

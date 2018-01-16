@@ -6,8 +6,13 @@ baseurl: ""
 author: Chris R. Donnelly
 email: blog@chrisdonnelly.com
 lang: en-US
+repository: cdonnellytx/cdonnellytx.github.io
 
-theme: jekyll-theme-cayman
+# UX
+#theme: jekyll-theme-cayman
+theme: jekyll-theme-clean-blog
+image: "/assets/img/bg/home.jpg"
+postImage: "/assets/img/bg/about.jpg"
 
 permalink: /:categories/:year/:month/:day/:title/
 

@@ -2,6 +2,7 @@
 layout: post
 author: Chris R. Donnelly
 title: "First post™"
+subtitle: "Finally, a blog!"
 date: 2018-01-14
 ---
 
