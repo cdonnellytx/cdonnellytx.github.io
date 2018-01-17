@@ -21,7 +21,7 @@ section: blog
           {% endif %}
           <span class="meta">
             <span class="meta-date">{{ page.date | date: '%B %d, %Y' }}</span>
-            {% if page.author != site.author %}
+            {% if page.author %}
                -
                <a class="meta-author" href="#">{{ page.author }}</a>
             {% endif %}
