@@ -3,6 +3,10 @@ gem "github-pages", group: :jekyll_plugins
 gem "jekyll-theme-clean-blog"
 gem "minimal-mistakes-jekyll"
 
+# Needed to satisfy security warnings
+gem "kramdown", ">= 2.3.1"
+gem "nokogiri", ">= 1.11.0"
+
 # Neeed to run on Windows
 if Gem.win_platform?
     gem 'wdm', '>= 0.1.0'
