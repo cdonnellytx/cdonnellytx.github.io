@@ -7,6 +7,7 @@ gem "minimal-mistakes-jekyll"
 gem "addressable", ">= 2.8.0"
 gem "kramdown", ">= 2.3.1"
 gem "nokogiri", ">= 1.11.7"
+gem "rubyzip", "~> 2.3.2"
 
 # Neeed to run on Windows
 if Gem.win_platform?
