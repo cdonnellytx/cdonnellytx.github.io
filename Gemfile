@@ -5,7 +5,7 @@ gem "minimal-mistakes-jekyll"
 
 # Needed to satisfy security warnings
 gem "kramdown", ">= 2.3.1"
-gem "nokogiri", ">= 1.11.0"
+gem "nokogiri", ">= 1.11.7"
 
 # Neeed to run on Windows
 if Gem.win_platform?
