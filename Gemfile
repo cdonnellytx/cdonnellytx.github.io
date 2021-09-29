@@ -6,7 +6,7 @@ gem "minimal-mistakes-jekyll"
 # Needed to satisfy security warnings
 gem "addressable", ">= 2.8.0"
 gem "kramdown", ">= 2.3.1"
-gem "nokogiri", ">= 1.11.7"
+gem "nokogiri", ">= 1.12.5"
 gem "rubyzip", "~> 2.3.2"
 
 # Neeed to run on Windows
