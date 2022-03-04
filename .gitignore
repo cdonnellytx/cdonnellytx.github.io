@@ -7,8 +7,6 @@ _site/
 *.ide/
 # Visual Studio 2015-present cache/options directory
 .vs/
-# Visual Studio Code
-.vscode/
 
 # Standard OS crap
 Thumbs.db
