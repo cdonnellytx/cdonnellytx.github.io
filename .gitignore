@@ -12,6 +12,3 @@ _site/
 Thumbs.db
 Desktop.ini
 .DS_Store
-
-# Ruby
-Gemfile.lock
