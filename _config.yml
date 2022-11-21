@@ -13,7 +13,7 @@ repository: cdonnellytx/cdonnellytx.github.io
 # So I copied in all its resources locally so I don't have to build it every single time I post, like an animal or the Apple Store.
 #theme: jekyll-theme-clean-blog
 image: "/assets/img/bg/home.jpg"
-permalink: /:categories/:year/:month/:day/:title/
+permalink: /:categories/:year/:month/:day/:title
 
 # Social
 twitter_username: cdonnellytx
