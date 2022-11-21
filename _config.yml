@@ -20,9 +20,7 @@ twitter_username: cdonnellytx
 github_username: cdonnellytx
 facebook_username: cdonnellytx
 stackoverflow_link: users/17152/chris-r-donnelly
-mastodon:
-- username: cdonnellytx
-  instance: mastodon.social
+mastodon_link: mastodon.social/@cdonnellytx
 
 # Build settings
 exclude:
