@@ -48,6 +48,7 @@
           </li>
           {% endif %}
           {% if site.mastodon %}
+          <!-- site.mastodon is truthy -->
           <li class="list-inline-item">
             <a rel="me" href="https://{{ site.mastodon.instance }}/@{{ site.mastodon.username }}">
               <span class="fa-stack fa-lg">
@@ -56,6 +57,8 @@
               </span>
             </a>
           </li>
+          {% else %}
+          <!-- site.mastodon is falsy -->
           {% endif %}
         </ul>
         <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</p>
