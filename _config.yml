@@ -9,7 +9,7 @@ lang: en-US
 repository: cdonnellytx/cdonnellytx.github.io
 
 # UX
-theme: jekyll-theme-clean-blog
+remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 image: "/assets/img/bg/home.jpg"
 permalink: /:categories/:year/:month/:day/:title
 
