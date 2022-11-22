@@ -3,6 +3,9 @@
 source "https://rubygems.org"
 gem "github-pages", ">= 227", group: :jekyll_plugins
 
+# Theme
+gem "jekyll-theme-clean-blog"
+
 # Required for ruby 3.0
 gem "webrick", "~> 1.7"
 
