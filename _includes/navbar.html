@@ -3,7 +3,7 @@
   <div class="container">
     {% comment %}Don't show the title in the navbar on the home page, it looks stupid.{% endcomment %}
     {% if page.url != "/" %}
-    <a class="navbar-brand" href="{{"/" | relative_url }}">{{ site.title }}</a>
+    <a class="navbar-brand" href="{{"/" | relative_url }}">{{ site.title | escape }}</a>
     {% endif %}
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       Menu
