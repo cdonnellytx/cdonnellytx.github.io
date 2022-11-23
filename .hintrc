@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/html": [
+      {
+        "ignore": [
+           // It works on things I care about, stop complaining.
+          "meta[name=theme-color]"
+        ]
+      }
+    ]
+  }
+}

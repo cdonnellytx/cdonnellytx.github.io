@@ -1,5 +1,7 @@
 {
     "recommendations": [
-        "rebornix.ruby"
+        "rebornix.ruby",
+        "ginfuru.ginfuru-vscode-jekyll-syntax",
+        "vitaliymaz.vscode-svg-previewer"
     ]
 }
