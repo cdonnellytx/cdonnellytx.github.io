@@ -20,6 +20,9 @@ facebook_username: cdonnellytx
 stackoverflow_link: users/17152/chris-r-donnelly
 mastodon_link: hachyderm.io/@cdonnellytx
 
+include:
+  - .well-known
+
 # Build settings
 exclude:
   - .editorconfig
