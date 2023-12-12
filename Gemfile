@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
-gem "github-pages", ">= 227", group: :jekyll_plugins
+gem "github-pages", ">= 228", group: :jekyll_plugins
 
 # Theme
 gem "jekyll-theme-clean-blog"
