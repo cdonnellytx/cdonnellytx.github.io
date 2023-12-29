@@ -12,6 +12,7 @@ repository: cdonnellytx/cdonnellytx.github.io
 remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 image: "/assets/img/bg/home.jpg"
 permalink: /:categories/:year/:month/:day/:title
+feed_url: "/feed.xml"
 
 # Social
 twitter_username: cdonnellytx
