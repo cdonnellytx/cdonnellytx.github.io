@@ -15,9 +15,9 @@ permalink: /:categories/:year/:month/:day/:title
 feed_url: "/feed.xml"
 
 # Social
-twitter_username: cdonnellytx
+# twitter_username: cdonnellytx
 github_username: cdonnellytx
-facebook_username: cdonnellytx
+# facebook_username: cdonnellytx
 stackoverflow_link: users/17152/chris-r-donnelly
 mastodon_link: hachyderm.io/@cdonnellytx
 
