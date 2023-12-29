@@ -31,3 +31,6 @@ exclude:
   - LICENSE
   - README.md
   - .vscode
+
+plugins:
+  - jekyll-feed
