@@ -2,6 +2,7 @@
     "recommendations": [
         "rebornix.ruby",
         "ginfuru.ginfuru-vscode-jekyll-syntax",
-        "vitaliymaz.vscode-svg-previewer"
+        "vitaliymaz.vscode-svg-previewer",
+        "firefox-devtools.vscode-firefox-debug"
     ]
 }
