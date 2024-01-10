@@ -1,8 +1,11 @@
 {
     "recommendations": [
-        "rebornix.ruby",
+        "editorconfig.editorconfig",
+        "firefox-devtools.vscode-firefox-debug",
         "ginfuru.ginfuru-vscode-jekyll-syntax",
-        "vitaliymaz.vscode-svg-previewer",
-        "firefox-devtools.vscode-firefox-debug"
+        "redhat.vscode-yaml",
+        "Shopify.ruby-lsp",
+        "streetsidesoftware.code-spell-checker",
+        "vitaliymaz.vscode-svg-previewer"
     ]
 }
