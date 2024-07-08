@@ -3,7 +3,8 @@
         "cdonnellytx",
         "hachyderm"
     ],
-    "files.associations": {
-        "*.html": "jekyll"
+    "html.format.wrapLineLength": 240,
+    "[liquid]": {
+        "editor.formatOnSave": true
     }
 }

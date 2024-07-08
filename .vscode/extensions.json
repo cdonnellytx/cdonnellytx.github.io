@@ -1,8 +1,7 @@
 {
     "recommendations": [
-        "rebornix.ruby",
-        "ginfuru.ginfuru-vscode-jekyll-syntax",
         "vitaliymaz.vscode-svg-previewer",
-        "firefox-devtools.vscode-firefox-debug"
+        "firefox-devtools.vscode-firefox-debug",
+        "sissel.shopify-liquid"
     ]
 }

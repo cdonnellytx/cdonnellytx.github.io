@@ -5,7 +5,7 @@
             "type": "firefox",
             "request": "attach",
             "name": "Attach",
-            "preLaunchTask": "jekyll"
+            "preLaunchTask": "npm run serve"
         }
     ]
 }

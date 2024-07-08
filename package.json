@@ -1,0 +1,14 @@
+{
+  "name": "www.chrisdonnelly.com",
+  "private": true,
+  "type": "commonjs",
+  "author": "Chris R. Donnelly",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0"
+  }
+}

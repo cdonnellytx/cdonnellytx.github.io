@@ -26,3 +26,8 @@ trim_trailing_whitespace = true
 [*.yml]
 indent_size = 2
 trim_trailing_whitespace = true
+
+# Liquid templates
+[*.liquid]
+indent_size = 2
+trim_trailing_whitespace = true
