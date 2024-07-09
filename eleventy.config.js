@@ -1,3 +1,4 @@
+const { EleventyHtmlBasePlugin } = require('@11ty/eleventy')
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const includeDrafts = false
 
@@ -6,6 +7,7 @@ const includeDrafts = false
  * @returns {{ dir: Record<string, string?>}}
  */
 module.exports = (eleventyConfig) => {
+    eleventyConfig.addPlugin(EleventyHtmlBasePlugin)
     eleventyConfig.addPlugin(syntaxHighlight)
 
     /**

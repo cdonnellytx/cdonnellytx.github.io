@@ -26,13 +26,13 @@
 
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    <link rel="stylesheet" href="{{ '/assets/main.css' | htmlBaseUrl }}">
+    <link rel="canonical" href="{{ site.github.url }}{{ page.url }}">
     {% if site.feed_url %}<link
         rel="alternate"
         type="application/rss+xml"
         title="{{ site.title | escape }}"
-        href="{{ site.feed_url | relative_url }}">
+        href="{{ site.feed_url | htmlBaseUrl }}">
     {% endif %}
 
     <link
@@ -60,7 +60,7 @@
       <div class="container">
         {% comment %}Don't show the title in the navbar on the home page, it looks stupid.{% endcomment %}
         {% if page.url != "/" %}
-          <a class="navbar-brand" href="{{"/" | relative_url }}">
+          <a class="navbar-brand" href="{{"/" | htmlBaseUrl }}">
             {{ site.title | escape }}
           </a>
         {% endif %}
@@ -78,15 +78,15 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="{{"/" | relative_url }}">Home
+              <a class="nav-link" href="{{"/" | htmlBaseUrl }}">Home
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{"/about" | relative_url }}">About
+              <a class="nav-link" href="{{"/about" | htmlBaseUrl }}">About
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{"/blog" | relative_url }}">Blog
+              <a class="nav-link" href="{{"/blog" | htmlBaseUrl }}">Blog
               </a>
             </li>
           </ul>
@@ -104,7 +104,7 @@
             <ul class="list-inline text-center">
               {% if site.feed_url %}
                 <li class="list-inline-item">
-                  <a href="{{ site.feed_url | relative_url }}">
+                  <a href="{{ site.feed_url | htmlBaseUrl }}">
                     <span class="fa-stack fa-lg">
                       <i class="fas fa-circle fa-stack-2x"></i>
                       <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
@@ -114,7 +114,7 @@
               {% endif %}
               {% if site.email %}
                 <li class="list-inline-item">
-                  <a href="mailto:{{ site.email | encode_email }}">
+                  <a href="mailto:{{ site.email }}">
                     <span class="fa-stack fa-lg">
                       <i class="fas fa-circle fa-stack-2x"></i>
                       <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
