@@ -2,7 +2,7 @@
 layout: post
 title: "First post™"
 subtitle: "Finally, a blog!"
-date: 2018-01-14
+date: 2018-01-14T19:55:00-0600
 tags:
 - blogging about blogging
 ---
