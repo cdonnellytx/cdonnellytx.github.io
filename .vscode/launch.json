@@ -5,7 +5,7 @@
             "type": "firefox",
             "request": "attach",
             "name": "Attach",
-            "preLaunchTask": "npm run serve"
+            "preLaunchTask": "11ty"
         }
     ]
 }

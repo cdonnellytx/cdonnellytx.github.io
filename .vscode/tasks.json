@@ -2,8 +2,8 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "jekyll",
-            "command": "bundle exec jekyll serve --incremental",
+            "label": "11ty",
+            "command": "npm run serve",
             "type": "shell"
         }
     ]
