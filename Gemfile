@@ -10,4 +10,4 @@ gem "jekyll-theme-clean-blog"
 gem 'wdm', '~> 0.1.1' if Gem.win_platform?
 
 # Lock these to avoid breakage
-gem "rubyzip", "~> 2.3.2"
+gem "rubyzip", ">= 2.4.1", "< 3.0.0"
